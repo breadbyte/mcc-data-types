@@ -1,0 +1,42 @@
+{
+    "name": "bed",
+    "desc": "Allows you to make the bot sleep easily, all about sleeping in one command.",
+    "usage": "/bed",
+    "parameters": [
+        {
+            "name": "leave",
+            "desc": "Leave a bed.",
+            "type": "name"
+        },
+        {
+            "name": "sleep",
+            "desc": "Make the bot sleep.",
+            "parameters": [ 
+                {
+                    "name": "x",
+                    "desc": "The x coordinate of the bed.",
+                    "type": "double",
+                    "parameters": [
+                        {
+                            "name": "y",
+                            "desc": "The y coordinate of the bed.",
+                            "type": "double",
+                            "parameters": [
+                                {
+                                    "name": "z",
+                                    "desc": "The z coordinate of the bed.",
+                                    "type": "double"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "radius",
+            "desc": "The radius in which to search for a bed.",
+            "type": "int"
+        }
+    ]				
+}

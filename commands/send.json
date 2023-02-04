@@ -1,0 +1,12 @@
+{
+    "name": "send",
+    "desc": "Send a chat message or command to the server.",
+    "note": "/send /command will send /command to the server.",
+    "parameters":[
+        {
+            "name":"message",
+            "desc":"The message to send.",
+            "type":"string"
+        }
+    ]
+}

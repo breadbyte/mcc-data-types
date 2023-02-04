@@ -1,0 +1,11 @@
+{
+    "name": "log",
+    "desc": "Log a message to the console.",
+    "parameters":[
+        {
+            "name":"message",
+            "desc":"The message to log.",
+            "type":"string"
+        }
+    ]
+}

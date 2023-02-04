@@ -1,0 +1,17 @@
+{
+    "name": "animation",
+    "desc": "Swing your main or off hand.",
+    "usage": "/animation",
+    "parameters": [
+        {
+            "name": "mainhand",
+            "desc": "Swing your main hand. (ANIMATION ONLY)",
+            "type": "name"
+        },
+        {
+            "name": "offhand",
+            "desc": "Swing your off hand. (ANIMATION ONLY)",
+            "type": "name"
+        }
+    ]
+}

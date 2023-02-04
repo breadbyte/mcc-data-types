@@ -1,0 +1,25 @@
+{
+    "name": "set",
+    "desc": "Sets a variable.",
+    "parameters": [
+        {
+            "name": "variable",
+            "desc": "The variable to set.",
+            "type": "string",
+            "parameters": [
+                {
+                    "name": "=",
+                    "desc": "The separator between the variable and the value.",
+                    "type": "name",
+                    "parameters": [
+                        {
+                            "name": "value",
+                            "desc": "The value to set the variable to.",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

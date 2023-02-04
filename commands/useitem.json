@@ -1,0 +1,5 @@
+{
+    "name": "useitem",
+    "desc": "Uses the item in your hand.",
+    "no_parameters": true
+}

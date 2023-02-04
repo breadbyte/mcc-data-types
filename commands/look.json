@@ -1,0 +1,71 @@
+{
+    "name": "look",
+    "desc": "Looks at the specified coordinates.",
+    "parameters": [
+        {
+            "name": "x",
+            "desc": "The X coordinate to look at.",
+            "type": "double",
+            "parameters": [
+                {
+                    "name": "y",
+                    "desc": "The Y coordinate to look at.",
+                    "type": "double",
+                    "parameters": [
+                        {
+                            "name": "z",
+                            "desc": "The Z coordinate to look at.",
+                            "type": "double"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "yaw, pitch",
+            "desc": "The yaw and pitch to look at.",
+            "parameters": [
+                {
+                    "name": "yaw",
+                    "desc": "The yaw to look at.",
+                    "type": "double"
+                },
+                {
+                    "name": "pitch",
+                    "desc": "The pitch to look at.",
+                    "type": "double"
+                }
+            ]
+        },
+        {
+            "name": "up",
+            "desc": "Looks straight up.",
+            "type": "name"
+        },
+        {
+            "name": "down",
+            "desc": "Looks straight down.",
+            "type": "name"
+        },
+        {
+            "name": "north",
+            "desc": "Looks at the north direction.",
+            "type": "name"
+        },
+        {
+            "name": "south",
+            "desc": "Looks at the south direction.",
+            "type": "name"
+        },
+        {
+            "name": "west",
+            "desc": "Looks at the west direction.",
+            "type": "name"
+        },
+        {
+            "name": "east",
+            "desc": "Looks at the east direction.",
+            "type": "name"
+        }
+    ]
+}

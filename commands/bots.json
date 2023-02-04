@@ -1,0 +1,28 @@
+{
+    "name": "bots",
+    "desc": "Allows you to list and unload a specific bot (or bots). Useful for debugging and developing scripts.",
+    "usage": "/bots",
+    "parameters": [
+        {
+            "name": "list",
+            "desc": "List all bots.",
+            "type": "name"
+        },
+        {
+            "name": "unload",
+            "desc": "Unload a specific bot.",
+            "parameters": [
+                {
+                    "name": "bot",
+                    "desc": "The bot to unload.",
+                    "type": "string"
+                },
+                {
+                    "name": "all",
+                    "desc": "Unload all bots.",
+                    "type": "name"
+                }
+            ]
+        }
+    ]
+}

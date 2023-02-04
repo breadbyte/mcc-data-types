@@ -1,0 +1,32 @@
+{
+    "name": "entity",
+    "desc": "Attack an entity, use an entity or get a list of entities around you.",
+    "usage": "/entity",
+    "note": "Get a list of entities around you",
+    "parameters": [
+        {
+            "name": "id",
+            "desc": "The ID of the entity to interact with.",
+            "type": "int",
+            "sub_parameters": true
+        },
+        {
+            "name": "type",
+            "desc": "The type of entity to interact with.",
+            "type": "string",
+            "sub_parameters": true
+        }
+    ],
+    "sub_parameters": [
+        {
+            "name": "attack",
+            "desc": "Attack the entity with the type.",
+            "type": "name"
+        },
+        {
+            "name": "use",
+            "desc": "Use the entity with the type.",
+            "type": "name"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "enchant",
+    "desc": "Allows you to enchant items in an enchanting table.",
+    "usage": "/enchant",
+    "note": "You need to first open an enchanting table and then place and item that you want to enchant and lapis in the enchanting table, and then you can execute the command. To open an enchanting table you can use the useblock command.",
+    "parameters": [
+        {
+            "name": "top",
+            "desc": "The top slot in the enchanting table.",
+            "type": "name"
+        },
+        {
+            "name": "middle",
+            "desc": "The middle slot in the enchanting table.",
+            "type": "name"
+        },
+        {
+            "name": "bottom",
+            "desc": "The bottom slot in the enchanting table.",
+            "type": "name"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "name": "move",
+    "desc": "Moves the player to the specified coordinates.",
+    "parameters": [
+        {
+            "name": "x",
+            "desc": "The X coordinate to move to.",
+            "type": "int",
+            "parameters": [
+                {
+                    "name": "y",
+                    "desc": "The Y coordinate to move to.",
+                    "type": "int",
+                    "parameters": [
+                        {
+                            "name": "z",
+                            "desc": "The Z coordinate to move to.",
+                            "type": "int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gravity",
+            "desc": "Enable or disable gravity.",
+            "parameters": [
+                {
+                    "name": "on",
+                    "desc": "Enables gravity.",
+                    "type": "string"
+                },
+                {
+                    "name": "off",
+                    "desc": "Disables gravity.",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "up",
+            "desc": "Moves the player up.",
+            "type": "name"
+        },
+        {
+            "name": "down",
+            "desc": "Moves the player down.",
+            "type": "name"
+        },
+        {
+            "name": "north",
+            "desc": "Moves the player north.",
+            "type": "name"
+        },
+        {
+            "name": "south",
+            "desc": "Moves the player south.",
+            "type": "name"
+        },
+        {
+            "name": "west",
+            "desc": "Moves the player west.",
+            "type": "name"
+        },
+        {
+            "name": "east",
+            "desc": "Moves the player east.",
+            "type": "name"
+        },
+        {
+            "name": "center",
+            "desc": "Moves the player to the center of the block.",
+            "type": "name"
+        },
+        {
+            "name": "on",
+            "desc": "Enables movement.",
+            "type": "name"
+        },
+        {
+            "name": "off",
+            "desc": "Disables movement.",
+            "type": "name"
+        },
+        {
+            "name": "get",
+            "desc": "Gets the player's current coordinates.",
+            "type": "name"
+        }
+    ],
+    "optional_parameters": [
+        {
+            "name": "-f",
+            "desc": "Force movement in uneven or dangerous terrain.",
+            "type": "name"
+        }
+    ]
+}

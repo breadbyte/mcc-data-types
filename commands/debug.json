@@ -1,0 +1,5 @@
+{
+    "name": "debug",
+    "desc": "Toggles debug messages.",
+    "no_parameters": true
+}

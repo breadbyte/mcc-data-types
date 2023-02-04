@@ -1,0 +1,5 @@
+{
+    "name": "respawn",
+    "desc": "Sends a respawn message to the server.",
+    "no_parameters": true
+}

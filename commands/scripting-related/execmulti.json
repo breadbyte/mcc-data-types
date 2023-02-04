@@ -1,0 +1,25 @@
+{
+    "name": "execmulti",
+    "desc": "Executes multiple commands.",
+    "parameters": [
+        {
+            "name": "command",
+            "desc": "The command to execute.",
+            "type": "string",
+            "parameters": [
+                {
+                    "name": "->",
+                    "desc": "The separator between commands.",
+                    "type": "name",
+                    "parameters": [
+                        {
+                            "name": "command",
+                            "desc": "The command to execute.",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

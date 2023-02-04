@@ -1,0 +1,11 @@
+{
+    "name": "reco",
+    "desc": "Reconnect to the server.",
+    "optional_parameters":[
+        {
+            "name":"account",
+            "desc":"The account to reconnect with. Uses the accounts section in the config file.",
+            "type":"string"
+        }
+    ]
+}

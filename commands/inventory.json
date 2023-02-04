@@ -1,0 +1,138 @@
+{
+    "name": "inventory",
+    "desc": "Handles the inventory.",
+    "parameters": [
+        {
+            "name": "player",
+            "alias": "p",
+            "desc": "Opens the player's inventory.",
+            "type": "name",
+            "sub_parameters": true
+        },
+        {
+            "name": "container",
+            "alias": "c",
+            "desc": "Opens the container's inventory.",
+            "type": "name",
+            "sub_parameters": true
+        },
+        {
+            "name": "id",
+            "desc": "Opens a specified container with an id.",
+            "type": "name",
+            "sub_parameters": true
+        },
+        {
+            "name": "inventories",
+            "alias": "i",
+            "desc": "Lists all inventories.",
+            "type": "name"
+        },
+        {
+            "name": "search",
+            "alias": "s",
+            "desc": "Searches for an item in all available inventories.",
+            "parameters":[
+                {
+                    "name": "item",
+                    "desc": "The item to search for.",
+                    "type": "string"
+                }
+            ],
+            "optional_parameters": [
+                {
+                    "name": "amount",
+                    "desc": "The amount of the item to search for.",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "creativegive",
+            "desc": "Gives an item in creative mode. Places it in the player's inventory.",
+            "parameters": [
+                {
+                    "name": "slot",
+                    "desc": "The slot to put the item into.",
+                    "type": "int",
+                    "parameters": [
+                        {
+                            "name": "amount",
+                            "desc": "The amount of items to drop.",
+                            "type": "int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "creativedelete",
+            "desc": "Deletes an item in creative mode. Removes it from the player's inventory.",
+            "parameters": [
+                {
+                    "name": "slot",
+                    "desc": "The slot to delete the item from.",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "sub_parameters": [
+        {
+            "name": "close",
+            "desc": "Closes the inventory.",
+            "type": "name"
+        },
+        {
+            "name": "click",
+            "desc": "Clicks on an inventory slot.",
+            "parameters": [
+                {
+                    "name": "slot",
+                    "desc": "The slot to click on.",
+                    "type": "int"
+                }
+            ],
+            "optional_parameters": [
+                {
+                    "name": "left",
+                    "desc": "Clicks the left mouse button.",
+                    "type": "name"
+                },
+                {
+                    "name": "right",
+                    "desc": "Clicks the right mouse button.",
+                    "type": "name"
+                },
+                {
+                    "name": "middle",
+                    "desc": "Clicks the middle mouse button.",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "drop",
+            "desc": "Drops an item from the inventory.",
+            "parameters": [
+                {
+                    "name": "slot",
+                    "desc": "The slot to drop the item from.",
+                    "type": "int",
+                    "parameters": [
+                        {
+                            "name": "amount",
+                            "desc": "The amount of items to drop.",
+                            "type": "int"
+                        },
+                        {
+                            "name": "all",
+                            "desc": "Drops all items from the slot.",
+                            "type": "name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "reload",
+    "desc": "Reload the configuration file and all currently loaded chatbots.",
+    "note": "Some settings won't be reloaded since they are used before the client initialization. Also, settings provided by the command line parameters will be overriden. This also does not reload the ReplayBot due to technical limitations.",
+    "no_parameters": true
+}

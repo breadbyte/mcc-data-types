@@ -1,0 +1,5 @@
+{
+    "name": "list",
+    "desc": "Lists all players currently in the server.",
+    "no_parameters": true
+}

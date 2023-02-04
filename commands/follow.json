@@ -1,0 +1,16 @@
+{
+    "name": "follow",
+    "desc": "Follows the player with the specified name.",
+    "parameters":[
+        {
+            "name":"name",
+            "desc":"The name of the player to follow.",
+            "type":"string"
+        },
+        {
+            "name":"stop",
+            "desc":"Stops following the player.",
+            "type":"name"
+        }
+    ]
+}

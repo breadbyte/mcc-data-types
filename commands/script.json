@@ -1,0 +1,11 @@
+{
+    "name": "script",
+    "desc": "Load a script file.",
+    "parameters":[
+        {
+            "name":"file",
+            "desc":"The file to load.",
+            "type":"string"
+        }
+    ]
+}

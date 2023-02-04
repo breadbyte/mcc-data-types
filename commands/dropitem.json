@@ -1,0 +1,12 @@
+{
+    "name": "dropitem",
+    "desc": "Drop all items of a specific type from your inventory.",
+    "usage": "/dropitem",
+    "parameters": [
+        {
+            "name": "itemtype",
+            "desc": "The type of item to drop from your inventory.",
+            "type": "string"
+        }
+    ]
+}

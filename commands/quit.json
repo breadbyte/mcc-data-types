@@ -1,0 +1,6 @@
+{
+    "name": "quit",
+    "alias": "exit",
+    "desc": "Disconnect from the server and close the application",
+    "no_parameters": true
+}

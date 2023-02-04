@@ -1,0 +1,5 @@
+{
+    "name": "tps",
+    "desc": "Shows the current TPS of the server. There may be inaccuracies, as it is calculated client-side.",
+    "no_parameters": true
+}

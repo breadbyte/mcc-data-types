@@ -1,0 +1,5 @@
+{
+    "name": "sneak",
+    "desc": "Toggles sneaking.",
+    "no_parameters": true
+}

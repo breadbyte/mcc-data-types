@@ -1,0 +1,38 @@
+{
+    "name": "chunk",
+    "desc": "Displays the chunk loading status in a nice way.",
+    "usage": "/chunk status",
+    "parameters": [
+        {
+            "name": "chunkX",
+            "desc": "The x coordinate of the chunk.",
+            "type": "int",
+            "parameters": [
+                {
+                    "name": "chunkZ",
+                    "desc": "The z coordinate of the chunk.",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "locationX",
+            "desc": "The x coordinate of the location.",
+            "type": "double",
+            "parameters": [
+                {
+                    "name": "locationY",
+                    "desc": "The y coordinate of the location.",
+                    "type": "double",
+                    "parameters": [
+                        {
+                            "name": "locationZ",
+                            "desc": "The z coordinate of the location.",
+                            "type": "double"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

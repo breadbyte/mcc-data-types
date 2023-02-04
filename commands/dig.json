@@ -1,0 +1,26 @@
+{
+    "name": "dig",
+    "desc": "Dig a block on a specific coordinate.",
+    "usage": "/dig",
+    "parameters": [
+        {
+            "name": "x",
+            "desc": "The x coordinate of the block to dig.",
+            "type": "double",
+            "parameters": [
+                {
+                    "name": "y",
+                    "desc": "The y coordinate of the block to dig.",
+                    "type": "double",
+                    "parameters": [
+                        {
+                            "name": "z",
+                            "desc": "The z coordinate of the block to dig.",
+                            "type": "double"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

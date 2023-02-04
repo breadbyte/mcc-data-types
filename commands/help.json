@@ -1,0 +1,12 @@
+{
+    "name": "help",
+    "desc": "Shows the help menu.",
+    "note": "Use /send /help to send the help command to the server.",
+    "parameters": [
+        {
+            "name": "command",
+            "desc": "Shows the help menu for a specific command.",
+            "type": "name"
+        }
+    ]
+}

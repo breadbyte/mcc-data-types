@@ -1,0 +1,25 @@
+{
+    "name": "execif",
+    "desc": "Executes a command if a condition is met.",
+    "parameters": [
+        {
+            "name": "condition",
+            "desc": "The condition to check.",
+            "type": "string",
+            "parameters": [
+                {
+                    "name": "--->",
+                    "desc": "The separator between the condition and the command.",
+                    "type": "name",
+                    "parameters": [
+                        {
+                            "name": "command",
+                            "desc": "The command to execute.",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

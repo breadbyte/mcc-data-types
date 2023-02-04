@@ -1,0 +1,33 @@
+{
+    "name": "blockinfo",
+    "desc": "Reports the block type at the given position.",
+    "usage": "/blockinfo",
+    "parameters": [ 
+        {
+            "name": "x",
+            "desc": "The x coordinate of the block.",
+            "type": "double",
+            "parameters": [
+                {
+                    "name": "y",
+                    "desc": "The y coordinate of the block.",
+                    "type": "double",
+                    "parameters": [
+                        {
+                            "name": "z",
+                            "desc": "The z coordinate of the block.",
+                            "type": "double"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "optional_parameters": [
+        {
+            "name": "-s",
+            "desc": "Also report the types around the selected block.",
+            "type": "name"
+        }
+    ]
+}

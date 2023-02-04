@@ -1,0 +1,13 @@
+{
+    "name": "changeslot",
+    "desc": "Change your selected slot in the hotbar.",
+    "usage": "/changeslot",
+    "parameters": [
+        {
+            "name": "slot",
+            "desc": "The desired slot in the hotbar to select.",
+            "type": "int",
+            "constraint": "1-9"
+        }
+    ]
+}
