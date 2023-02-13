@@ -5,17 +5,17 @@
         {
             "name": "x",
             "desc": "The X coordinate of the block.",
-            "type": "int",
+            "type": "coordinate",
             "parameters": [
                 {
                     "name": "y",
                     "desc": "The Y coordinate of the block.",
-                    "type": "int",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "z",
                             "desc": "The Z coordinate of the block.",
-                            "type": "int"
+                            "type": "coordinate"
                         }
                     ]
                 }

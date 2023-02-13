@@ -5,17 +5,17 @@
         {
             "name": "x",
             "desc": "The X coordinate to move to.",
-            "type": "int",
+            "type": "coordinate",
             "parameters": [
                 {
                     "name": "y",
                     "desc": "The Y coordinate to move to.",
-                    "type": "int",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "z",
                             "desc": "The Z coordinate to move to.",
-                            "type": "int"
+                            "type": "coordinate"
                         }
                     ]
                 }

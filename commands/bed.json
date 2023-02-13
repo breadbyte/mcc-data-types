@@ -13,30 +13,30 @@
             "desc": "Make the bot sleep.",
             "parameters": [ 
                 {
+                    "name": "radius",
+                    "desc": "The radius in which to search for a bed.",
+                    "type": "int"
+                },
+                {
                     "name": "x",
                     "desc": "The x coordinate of the bed.",
-                    "type": "double",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "y",
                             "desc": "The y coordinate of the bed.",
-                            "type": "double",
+                            "type": "coordinate",
                             "parameters": [
                                 {
                                     "name": "z",
                                     "desc": "The z coordinate of the bed.",
-                                    "type": "double"
+                                    "type": "coordinate"
                                 }
                             ]
                         }
                     ]
                 }
             ]
-        },
-        {
-            "name": "radius",
-            "desc": "The radius in which to search for a bed.",
-            "type": "int"
         }
     ]				
 }

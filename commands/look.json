@@ -5,17 +5,17 @@
         {
             "name": "x",
             "desc": "The X coordinate to look at.",
-            "type": "double",
+            "type": "coordinate",
             "parameters": [
                 {
                     "name": "y",
                     "desc": "The Y coordinate to look at.",
-                    "type": "double",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "z",
                             "desc": "The Z coordinate to look at.",
-                            "type": "double"
+                            "type": "coordinate"
                         }
                     ]
                 }

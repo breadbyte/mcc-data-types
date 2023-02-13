@@ -6,17 +6,17 @@
         {
             "name": "x",
             "desc": "The x coordinate of the block to dig.",
-            "type": "double",
+            "type": "coordinate",
             "parameters": [
                 {
                     "name": "y",
                     "desc": "The y coordinate of the block to dig.",
-                    "type": "double",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "z",
                             "desc": "The z coordinate of the block to dig.",
-                            "type": "double"
+                            "type": "coordinate"
                         }
                     ]
                 }

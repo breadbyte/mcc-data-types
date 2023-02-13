@@ -18,17 +18,17 @@
         {
             "name": "locationX",
             "desc": "The x coordinate of the location.",
-            "type": "double",
+            "type": "coordinate",
             "parameters": [
                 {
                     "name": "locationY",
                     "desc": "The y coordinate of the location.",
-                    "type": "double",
+                    "type": "coordinate",
                     "parameters": [
                         {
                             "name": "locationZ",
                             "desc": "The z coordinate of the location.",
-                            "type": "double"
+                            "type": "coordinate"
                         }
                     ]
                 }
